@@ -1,0 +1,54 @@
+$bgcolor: #3c3c3c;
+$font: sans-serif;
+
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: $bgcolor;
+	width: 100%;
+}
+
+main{
+	.main-content{
+
+        .login-form {
+        	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        	padding: 20px;
+        	color: $bgcolor;
+        	background-color: #ffffff;
+        	width: 40%;
+        	height: 50%;
+        	text-align: center;
+    	    left: 50%;
+		    top: 50%;
+		    position: absolute;
+		    -webkit-transform: translate3d(-50%, -50%, 0);
+		    -moz-transform: translate3d(-50%, -50%, 0);
+		    transform: translate3d(-50%, -50%, 0);
+		    h1 {
+		    	padding: 30px;
+		    }
+		    p{
+		    	padding: 5px;
+		    	input{
+		    		width: 80%;
+		    		height: 10%;
+		    	}
+		    	.submit{
+		    		color: white;
+		    		background: #3bb1dc;
+		    		font-size: 20px;
+		    		opacity: 0.8;
+		    	}
+		    	.submit:hover {
+		    		opacity: 1;
+		    		cursor: pointer;
+		    	}
+		    }
+        }
+	}
+}
